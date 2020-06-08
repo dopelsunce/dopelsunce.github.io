@@ -1,0 +1,14 @@
+<div class="Teaching">
+	{{ with .Site.Params.teaching }}
+	<h4>Teaching</h4>
+	<ul>
+		{{- range $index, $teaching_map := $.Site.Params.teaching -}}
+		{{ range $index, $course := $teaching_map.course }}
+		<li>
+			{{ $course.name | markdownify }}
+		</li>
+		{{ end }}
+		{{- end -}}
+	</ul>
+	{{ end }}
+</div>

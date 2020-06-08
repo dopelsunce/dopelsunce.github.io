@@ -1,0 +1,14 @@
+<div class="Teaching">
+	{{ with .Site.Params.teaching }}
+	<h4>Professional Service</h4>
+	<ul>
+		{{- range $index, $service_items := $.Site.Params.service -}}
+		{{ range $index, $item := $service_items.item }}
+		<li>
+			{{ $item.name | markdownify }}
+		</li>
+		{{ end }}
+		{{- end -}}
+	</ul>
+	{{ end }}
+</div>
