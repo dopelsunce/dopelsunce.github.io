@@ -1,0 +1,132 @@
+baseURL = "https://example.edu"
+languageCode = "en-us"
+title = "Yahui Sun"
+theme = "avicenna"
+# googleAnalytics = "UA-1234-6"
+timeout=3000
+
+[params]
+  subtitle= "PhD Student"
+  interests="Programming Languages, Program Analysis, Model Checking"
+  cv_name= "YahuiSun_CV.pdf"
+  # blog="http://myblog.edu"
+
+[[params.affilation]]
+  name = "Texas A&M University"
+  position = "PhD Student in Computer Science"
+  contact = "yahuis@tamu.edu"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/dopelsunce"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "twitter"
+  url = "https://twitter.com/sosccc1"
+
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://www.linkedin.com/in/yahui-sun-6b8763b8/"
+
+
+[[params.introduction.paragraph]]
+  text="""I'm a 2nd-year PhD student working with [Prof. Jeff Huang](https://parasol.tamu.edu/~jeff/) at Texas A&M University and a member of the [O2@TAMU](https://o2lab.github.io/) and [Parasol](https://parasol.tamu.edu/index.php) research groups.
+   """
+[[params.introduction.paragraph]]
+  text="""My research interests lie in making software more correct and secure using program analysis, automated testing, and verification techniques.
+  Currently, I'm developing tools to find concurrency bugs in Go and memory-safety bugs in C/C++ programs.
+  """
+
+[[params.introduction.paragraph]]
+  text="""I will be joining Microsoft as a research intern this summer.
+  """
+
+[[params.teaching]]
+	[[params.teaching.course]]
+		name = "Teaching Assistant, CSCE221@TAMU, Data Structures and Algorithms, 2019 Fall"
+
+[[params.service]]
+  [[params.service.item]]
+    name = "Artifact Evaluation Committee: PLDI'19"
+  [[params.service.item]]
+    name = "Subreviewer: FSE'19-20, PLDI'19, ICSE'19, OOPSLA'19, PPoPP'20"
+
+# [[params.projects]]
+# 	[[params.projects.project]]
+# 		name = "Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor"
+# 		description  = "Enim facilisis gravida neque convallis a. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse.Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor. In nisl nisi scelerisque eu ultrices vitae auctor."
+# 		project_page = "https://myprojecthomepage.com"
+# 		code_link = "https://coderepo.com"
+# 		blog_link = "https://ablogpost.com"
+
+#  [[params.projects.project]]
+# 		name = "In nisl nisi scelerisque eu ultrices vitae auctor"
+# 		description  = ""
+# 		project_page = "https://myprojecthomepage.com"
+# 		code_link = "https://coderepo.com"
+# 		blog_link = ""
+
+#  [[params.projects.project]]
+# 		name = "Integer eget aliquet nibh praesent tristique magna"
+# 		description  = ""
+# 		project_page = "https://myprojecthomepage.com"
+# 		code_link = ""
+# 		blog_link = "https://ablogpost.com"
+
+# [[params.publications]]
+#   year="Preprint"
+
+#   [[params.publications.paper]]
+#     name = "Enim nunc faucibus a pellentesque sit amet porttitor"
+#     authors = "Ana Alvardo, William Worthley, __Hadi Sinaee__"
+#     dest  = "Helga Zita Journal"
+#     link = "https://mypaperishere.com"
+#     code_link = "https://thecoderepo.com"
+#     blog_link = "https://myblogaboutit.com"
+
+#   [[params.publications.paper]]
+#     name = "In cursus turpis massa tincidunt dui ut ornare lectus sit"
+#     authors = "__Hadi Sinaee__,Les Larkins, Edra Ethier"
+#     dest  = "Meklit Katlego Conference"
+#     link = "https://mypaperishere.com"
+#     code_link = "https://thecoderepo.com"
+#     blog_link = "https://myblogaboutit.com"
+
+# [[params.publications]]
+#   year="2019"
+
+#   [[params.publications.paper]]
+# 		name = "Feugiat sed lectus vestibulum mattis ullamcorper velit sed"
+# 		authors = "Caroll Comes, __Hadi Sinaee__"
+# 		dest  = "Udo Madhu Journal"
+# 		link = "https://mypaperishere.com"
+# 		code_link = "https://thecoderepo.com"
+# 		blog_link = ""
+
+#   [[params.publications.paper]]
+# 		name = "Venenatis urna cursus eget nunc. Nam aliquam sem et tortor consequat id porta nibh venenatis"
+# 		authors = "Les Larkins, Ana Alvardo, __Hadi Sinaee__ "
+# 		dest  = "Zorka Vita Conference"
+# 		link = "https://mypaperishere.com"
+# 		code_link = ""
+# 		blog_link = "https://myblogaboutit.com"
+
+#   [[params.publications.paper]]
+# 		name = "Aliquet eget sit amet tellus cras adipiscing enim eu turpis"
+# 		authors = "Les Larkins, __Hadi Sinaee__, Ana Alvardo"
+# 		dest  = "Lena Randa Conference"
+# 		link = "https://mypaperishere.com"
+# 		code_link = ""
+# 		blog_link = ""
+
+#   [[params.publications.paper]]
+# 		name = "Orci eu lobortis elementum nibh tellus molestie nunc non blandit"
+# 		authors = "__Hadi Sinaee__, Caroll Comes"
+# 		dest  = "Thandeka Radhika Conference"
+# 		link = ""
+# 		code_link = ""
+# 		blog_link = ""
