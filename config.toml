@@ -41,10 +41,6 @@ timeout=3000
   Currently, I'm developing tools to find concurrency bugs in Go and memory-safety bugs in C/C++ programs.
   """
 
-[[params.introduction.paragraph]]
-  text="""I will be joining Microsoft as a research intern this summer.
-  """
-
 [[params.teaching]]
 	[[params.teaching.course]]
 		name = "Teaching Assistant, CSCE221@TAMU, Data Structures and Algorithms, 2019 Fall"
