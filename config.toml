@@ -6,7 +6,7 @@ theme = "avicenna"
 timeout=3000
 
 [params]
-  subtitle= "PhD Student"
+  subtitle= "MS Student"
   interests="Programming Languages, Program Analysis, Model Checking"
   cv_name= "YahuiSun_CV.pdf"
   # blog="http://myblog.edu"
