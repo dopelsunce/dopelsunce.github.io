@@ -1,4 +1,4 @@
-baseURL = "https://dopelsunce.github.io"
+baseURL = "https://yhsun.me"
 languageCode = "en-us"
 title = "Yahui Sun"
 theme = "avicenna"
@@ -13,7 +13,7 @@ timeout=3000
 
 [[params.affilation]]
   name = "Texas A&M University"
-  position = "PhD Student in Computer Science"
+  position = "MS of Computer Science"
   contact = "yahuis@tamu.edu"
 
 [[params.social]]
@@ -34,10 +34,10 @@ timeout=3000
 
 
 [[params.introduction.paragraph]]
-  text="""I'm a 2nd-year PhD student working with [Prof. Jeff Huang](https://parasol.tamu.edu/~jeff/) at Texas A&M University and a member of the [O2@TAMU](https://o2lab.github.io/) and [Parasol](https://parasol.tamu.edu/index.php) research groups.
+  text="""I'm a MS student working with [Prof. Jeff Huang](https://parasol.tamu.edu/~jeff/) at Texas A&M University and a member of the [O2@TAMU](https://o2lab.github.io/) and [Parasol](https://parasol.tamu.edu/index.php) research groups.
    """
 [[params.introduction.paragraph]]
-  text="""My research interests lie in making software more correct and secure using program analysis, automated testing, and verification techniques.
+  text="""My research aims to software more correct and secure using program analysis, automated testing, and verification techniques.
   Currently, I'm developing tools to find concurrency bugs in Go and memory-safety bugs in C/C++ programs.
   """
 
