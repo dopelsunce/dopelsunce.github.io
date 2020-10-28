@@ -44,6 +44,7 @@ timeout=3000
 [[params.teaching]]
 	[[params.teaching.course]]
 		name = "Head Teaching Assistant, CSCE221: Data Structures and Algorithms, TAMU, 2019 Fall"
+  [[params.teaching.course]]
     name = "Teaching Assistant, Compiler Design, Wuhan University, 2017"
 
 [[params.service]]
