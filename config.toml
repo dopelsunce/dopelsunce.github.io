@@ -37,19 +37,20 @@ timeout=3000
   text="""I'm a MS student working with [Prof. Jeff Huang](https://parasol.tamu.edu/~jeff/) at Texas A&M University and a member of the [O2@TAMU](https://o2lab.github.io/) and [Parasol](https://parasol.tamu.edu/index.php) research groups.
    """
 [[params.introduction.paragraph]]
-  text="""My research aims to software more correct and secure using program analysis, automated testing, and verification techniques.
-  Currently, I'm developing tools to find concurrency bugs in Go and memory-safety bugs in C/C++ programs.
+  text="""My research interests span programming languages and formal methods.
+  Currently, I'm developing tools to find concurrency bugs in Go and memory-safety bugs in C/C++ programs. Previously, I worked on [Checked C](https://www.microsoft.com/en-us/research/project/checked-c/) as a research intern at Microsoft.
   """
 
 [[params.teaching]]
 	[[params.teaching.course]]
-		name = "Teaching Assistant, CSCE221@TAMU, Data Structures and Algorithms, 2019 Fall"
+		name = "Head Teaching Assistant, CSCE221: Data Structures and Algorithms, TAMU, 2019 Fall"
+    name = "Teaching Assistant, Compiler Design, Wuhan University, 2017"
 
 [[params.service]]
   [[params.service.item]]
     name = "Artifact Evaluation Committee: PLDI'19"
   [[params.service.item]]
-    name = "Subreviewer: OOPSLA'20, FSE'20, PPoPP'20, PLDI'19, ICSE'19, OOPSLA'19, FSE'19, TOSEM, TSE"
+    name = "Co-reviewer: OOPSLA'20, FSE'20, PPoPP'20, PLDI'19, ICSE'19, OOPSLA'19, FSE'19, TOSEM, TSE"
 
 # [[params.projects]]
 # 	[[params.projects.project]]
